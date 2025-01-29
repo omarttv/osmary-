@@ -35,29 +35,7 @@
             padding: 10px;
             border-radius: 5px;
         }
-        .appointment-form {
-            background-color: #e9ecef;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-        }
-        .appointment-form input, .appointment-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .appointment-form button {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .appointment-form button:hover {
-            background-color: #0056b3;
+      
         }
         footer {
             background-color: #343a40;
