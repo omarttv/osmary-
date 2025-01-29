@@ -1,0 +1,58 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aire Acondicionado XYZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aire Acondicionado XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Bienvenidos a Aire Acondicionado XYZ</h2>
+        <p>Ofrecemos soluciones de climatización para tu hogar o negocio. Contamos con una variedad de equipos de aire acondicionado de las mejores marcas, así como servicio técnico especializado.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios que Ofrecemos</h2>
+        <ul>
+            <li>Instalación de aire acondicionado</li>
+            <li>Reparación y mantenimiento</li>
+            <li>Asesoría en compra de equipos</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="process_reservation.php" method="POST" id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aire Acondicionado XYZ | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
