@@ -66,31 +66,7 @@
             <li><strong>Maintenance:</strong> Regular maintenance to keep your systems efficient and long-lasting.</li>
         </ul>
     </section>
-    <section class="appointment">
-        <h2>Book an Appointment</h2>
-        <div class="appointment-form">
-            <form id="appointmentForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="service">Service Needed:</label>
-                <select id="service" name="service" required>
-                    <option value="installation">Installation</option>
-                    <option value="repair">Repair</option>
-                    <option value="maintenance">Maintenance</option>
-                </select>
-                
-                <label for="date">Preferred Date:</label>
-                <input type="date" id="date" name="date" required>
-                
-                <label for="message">Additional Notes:</label>
-                <textarea id="message" name="message" rows="4"></textarea>
-                
-                <button type="submit">Book Appointment</button>
-            </form>
+   
             <p id="confirmationMessage" style="display:none; color: green; margin-top: 10px;"></p>
         </div>
     </section>
